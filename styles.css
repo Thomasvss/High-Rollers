@@ -9,6 +9,16 @@ div {
     margin: 0;
 }
 
+.burnitdown {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
 @media only screen 
     and (width: 414px) 
     and (height: 896px) 
