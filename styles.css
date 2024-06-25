@@ -8,4 +8,9 @@ div {
     margin: 0;
 }
 
+@media only screen 
+    and (width: 414px) 
+    and (height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { }
+
 
