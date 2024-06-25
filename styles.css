@@ -1,4 +1,5 @@
 body {
+    
     margin: 0;
     background: greenyellow;
     text-align: center;
@@ -11,6 +12,15 @@ div {
 @media only screen 
     and (width: 414px) 
     and (height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) { }
+    and (-webkit-device-pixel-ratio: 3) { 
+
+        .body {
+            visibility: visible;
+        }
+
+        .div {
+            visibility: visible;
+        }
+    }
 
 
