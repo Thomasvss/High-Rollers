@@ -3,3 +3,7 @@ body {
     background: greenyellow;
     text-align: center;
 }
+
+div {
+    margin: 0;
+}
