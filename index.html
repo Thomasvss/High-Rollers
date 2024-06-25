@@ -50,20 +50,20 @@
         </table>
     </div>
 
-    <span style='font-size:100px; padding-top: 5px;'>&#8595;</span>
+    <span id="arrow1" style='font-size:100px; padding-top: 5px;'>&#8595;</span>
 
     <div  id="divbutton" style="display:block; margin-top: 5px; margin-left: 50px; justify-content: center">
 
-        <span style='font-size:100px; padding-top: 5px;'>&#8594;</span>
+        <span id="arrow2" style='font-size:100px; padding-top: 5px;'>&#8594;</span>
 
         <button onclick="audio.play();ShowDiv();"
             style="font-size: 55px; color: white; cursor: pointer; background: #39D52C; border: 2px solid #109D04; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
             All we do is...........</button>
 
-            <span style='font-size:100px; padding-top: 5px;'>&#8592;</span>
+            <span id="arrow3" style='font-size:100px; padding-top: 5px;'>&#8592;</span>
     </div>
 
-    <span style='font-size:100px; padding-top: 5px;'>&#8593;</span>
+    <span id="arrow4" style='font-size:100px; padding-top: 5px;'>&#8593;</span>
 
 
     <div >
@@ -80,6 +80,10 @@
         function ShowDiv() {
             document.getElementById("gif").style.display = "";
             document.getElementById("divbutton").style.display = "none";
+            document.getElementById("arrow1").style.display = "none";
+            document.getElementById("arrow2").style.display = "none";
+            document.getElementById("arrow3").style.display = "none";
+            document.getElementById("arrow4").style.display = "none";
         }
     </script>
 
